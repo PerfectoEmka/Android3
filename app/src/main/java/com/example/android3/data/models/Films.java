@@ -20,6 +20,8 @@ public class Films {
     @SerializedName("release_date")
     private String releaseDate;
 
+    private String image;
+
     private List<String> people;
 
     public String getId() {
@@ -77,4 +79,13 @@ public class Films {
     public void setReleaseDate(String releaseDate) {
         this.releaseDate = releaseDate;
     }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
 }
